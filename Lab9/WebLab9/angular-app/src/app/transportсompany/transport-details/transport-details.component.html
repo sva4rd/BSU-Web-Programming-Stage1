@@ -1,0 +1,15 @@
+<div class="container">
+  <h2 class="mt-5 mb-3">Transport Details</h2>
+  <div *ngIf="transport" class="card">
+    <div class="card-body">
+      <h5 class="card-title">{{ transport.description }}</h5>
+
+      <p class="card-text">Driver: {{ transport.driver }}</p>
+      <a href="#" class="btn btn-primary">Buy Now</a>
+    </div>
+  </div>
+  <div *ngIf="!transport" class="alert alert-warning mt-3">
+    Warning: Unknown toy selected.
+  </div>
+</div>
+
