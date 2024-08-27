@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page4</title>
+    <style type="text/css">
+        table {
+            border: 5px solid black;
+            border-collapse: collapse;
+            border-style: double;
+            font-size: 45px;
+        }
+
+        th {
+            text-align: center;
+            border: 5px solid black;
+            border-style: double;
+        }
+
+        td {
+            text-align: center;
+            border: 5px solid black;
+            border-style: double;
+        }
+        caption{
+            font-size: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <table align="center">
+        <caption><b>Стоимость услуг</b></caption>
+        <colgroup>
+            <col>
+            <col>
+            <col style="background-color:rgb(230, 240, 40)">
+        </colgroup>
+        <tr>
+            <th>Вид перевозки</th>
+            <th>Стоимость</th>
+            <th>Макс. расстояние</th>
+        </tr>
+        <tr>
+            <td>Городская</td>
+            <td>250$</td>
+            <td>100km</td>
+        </tr>
+        <tr>
+            <td>Междугородняя</td>
+            <td rowspan="2">600$</td>
+            <td>800km</td>
+        </tr>
+        <tr>
+            <td>Междугородняя(деревня)</td>
+            <td>700km</td>
+        </tr>
+        <tr>
+            <td>Международная</td>
+            <td>1200$</td>
+            <td>5500km</td>
+        </tr>
+    </table>
+</body>
+
+</html>

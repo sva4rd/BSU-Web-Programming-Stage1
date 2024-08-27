@@ -1,0 +1,20 @@
+.menu-item
+{
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    margin: 15px 50px 15px 15px;
+    background-color: Peru;
+    color: white;
+    padding: 5px 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+body
+{
+    background-color: BurlyWood;
+}
+
+ul
+{
+    list-style: inside;
+}

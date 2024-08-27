@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/storage_script.js"></script>
+  <title>Pride Industry</title>
+
+  <style>
+    body{
+      margin: 0px;
+      background-color: BurlyWood;
+    }
+
+    #header {
+      font-family: 'Comic Sans MS', Comic Sans, cursive;
+      font-size: 55px;
+      text-align:center;
+      text-shadow: 1px 1px 3px white;
+      color: white;
+      background-color: Peru;
+      padding: 10px;
+    }
+
+    #content {
+      background-color: BurlyWood;
+      height: 60px;
+      padding: 20px;
+      text-align: justify;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .button{
+      font-family: 'Comic Sans MS', Comic Sans, cursive;
+      background-color: Peru;
+      font-size: 15px;
+      border-style: none;
+      color: white;
+      cursor: pointer
+    ;
+    }
+  </style>
+</head>
+
+<body>
+<div id="header">Pride Industry</div>
+<div id="content">
+  <input class="button" onclick="AddTransportation();" value="Ввод информации об грузоперевозке" type="button">
+  <input class="button" onclick="DeleteTransportation();" value="Удаление информации об грузоперевозке" type="button">
+  <input class="button" onclick="TransportationInfo();" value="Получение информации об грузоперевозке" type="button">
+  <input class="button" onclick="ShowAllTransportations();" value="Перечень всех грузоперевозок" type="button">
+</div>
+</body>
+
+</html>
